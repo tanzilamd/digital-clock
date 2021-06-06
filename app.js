@@ -6,7 +6,7 @@ function digitalClock() {
     let timeFormat = "AM";
 
     if (hours === 0) {
-        hours = 0;
+        hours = 12;
     }
 
     if (hours > 12) {
